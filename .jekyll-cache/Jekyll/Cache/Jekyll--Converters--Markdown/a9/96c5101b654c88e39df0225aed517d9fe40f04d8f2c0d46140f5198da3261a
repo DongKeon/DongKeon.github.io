@@ -1,0 +1,14 @@
+I"�<h2 id="link">Link</h2>
+<ul>
+  <li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9053760">paper link</a></li>
+  <li><a href="https://github.com/HuangZiliAndy/RPNSD">code link</a></li>
+</ul>
+
+<h1 id="introduction">Introduction</h1>
+<ul>
+  <li>Speaker diarization is an important pre-processing step for many speech applications, and it aims to solve the “who spoke when” problem. Although the standard diarization systems can achieve satisfactory results in various scenarios, they are composed of several independently-optimized modules and cannot deal with the overlapped speech. In this paper, we propose a novel speaker diarization method: Region Proposal Network based Speaker Diarization (RPNSD). In this method, a neural network generates overlapped speech segment proposals, and compute their speaker embeddings at the same time. Compared with standard diarization systems, RPNSD has a shorter pipeline and can handle the overlapped speech.  Experimental results on three diarization datasets reveal that RPNSD achieves remarkable improvements over the state-of-the-art x-vector baseline.</li>
+</ul>
+
+<h1 id="related-work">Related Work</h1>
+
+:ET

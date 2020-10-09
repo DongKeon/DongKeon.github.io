@@ -1,0 +1,8 @@
+I"Q<h2 id="paper-link"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9053760">paper link</a></h2>
+<h2 id="code-link"><a href="https://github.com/HuangZiliAndy/RPNSD">code link</a></h2>
+<h1 id="introduction">Introduction</h1>
+<p>This paper proposes a Group Latent Embedding for Vector Quantized Variational Autoencoders (VQ-VAE) used in nonparallel Voice Conversion (VC). Previous studies have shown that VQ-VAE can generate high-quality VC syntheses when it is paired with a powerful decoder. However, in a conventional VQ-VAE, adjacent atoms in the embedding dictionary can represent entirely different phonetic content. Therefore, the VC syntheses can have mispronunciations and distortions whenever the output of the encoder is quantized to an atom representing entirely different phonetic content. To address this issue, we propose an approach that divides the embedding dictionary into groups and uses the weighted average of atoms in the nearest group as the latent embedding. We conducted both objective and subjective experiments on the non-parallel CSTR VCTK corpus. Results show that the proposed approach significantly improves the acoustic quality of the VC syntheses compared to the traditional VQ-VAE (13.7% relative improvement) while retaining the voice identity of the target speaker.</p>
+
+<h1 id="related-work">Related Work</h1>
+
+:ET
